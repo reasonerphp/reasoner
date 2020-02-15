@@ -15,10 +15,10 @@ interface IObjectClass
 
     public function getParentId(): int;
 
-    public function getDisjointList(): DisjointList;
+    public function getDisjointList(): IDisjointList;
 
-    public function getDefinitionList(): DefinitionList;
+    public function getDefinitionList(): IDefinitionList;
 
-    public function getCondition(): Condition;
+    public function getCondition(): ICondition;
 
 }
