@@ -17,7 +17,7 @@ interface IObjectProperty
 
     public function isFunctional(): bool;
 
-    public function getInversePropertyId(): int;
+    public function getInversePropertyId(): ?int;
 
     public function isTransitive(): bool;
 
