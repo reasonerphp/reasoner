@@ -20,7 +20,7 @@ class Definition implements  IDefinition
     private $set;
 
 
-    public function __construct(int $propertyId, string $typeOfRestriction, ?int $count, ?Iset $set)
+    public function __construct(int $propertyId, int $typeOfRestriction, ?int $count, ?Iset $set)
     {
         $this->propertyId = $propertyId;
         $this->typeOfRestriction = $typeOfRestriction;
