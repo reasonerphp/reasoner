@@ -16,6 +16,7 @@ $configurator->setTempDirectory(__DIR__ . '/tmp');
 
 $configurator
     ->createRobotLoader()
+    ->addDirectory(__DIR__ . '/../src')
     ->register();
 
 $container = $configurator->createContainer();
